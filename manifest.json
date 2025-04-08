@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Toxic Tracker",
+  "version": "1.0",
+  "description": "Flags red flag texts on WhatsApp Web",
+  "content_scripts": [
+    {
+      "matches": ["https://web.whatsapp.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "permissions": []
+}
